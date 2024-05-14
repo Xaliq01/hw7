@@ -1,0 +1,247 @@
+.main{
+    width: 700px;
+    min-height: 750px;
+    float: left;
+    /* background-color: beige; */
+}
+.top{
+    width: 100%;
+    min-height: 450px;
+    float: left;
+    /* background-color: darkkhaki; */
+    /* background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2ZsMzYyNjkxODE2NDItcHVibGljLWltYWdlLWtvbnFxczZlLmpwZw.jpg);
+    background-size: cover; */
+}
+.bottom{
+    width: 100%;
+    min-height: 350px;
+    float: left;
+    /* background-color:rgb(95, 158, 160) ; */
+}
+.picture{
+    width:100% ;
+    min-height:300px ;
+    float: left;
+    /* background-color:red ; */
+    background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2ZsMzYyNjkxODE2NDItcHVibGljLWltYWdlLWtvbnFxczZlLmpwZw.jpg);
+    background-size: cover;
+}
+.text{
+    width: 100%;
+    min-height:150px ;
+    float: left;
+    /* background-color: blue; */
+}
+.miniText{
+    width: 100%;
+    min-height: 100px;
+    /* background-color: darkolivegreen; */
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: #F0F0F0;
+}
+.photos{
+    width: 100%;
+    min-height:250px ;
+    /* background-color:purple ; */
+    float: left;
+}
+.r_gmail{
+    width:100% ;
+    min-height: 30px;
+    float: left;
+    /* background-color:aqua; */
+}
+.menu{
+    width:100% ;
+    min-height: 60px;
+    float: left;
+    /* background-color: yellow; */
+    position: relative;
+}
+.slova{
+    width:100% ;
+    min-height: 210px;
+    float: left;
+    /* background-color:salmon ; */
+    display: flex;
+    align-items: center;
+}
+.roadmap{
+   width: 33.33%;
+   min-height: 150px;
+   float: left;
+   /* background-color: burlywood;  */
+}
+.margin {
+    margin: 0 5px 0 0;
+}
+.width{
+    width: calc(33.33% - 5px);
+}
+.photo{
+  width: 33.33%;  
+  min-height: 125px;
+  float: left;
+  background-color: rgb(212, 70, 136);
+  background-image: url(https://media.istockphoto.com/id/1289461335/photo/portrait-of-a-handsome-black-man.jpg?s=612x612&w=0&k=20&c=gDibbpmkeV04ta3ociwAgpqcjdeU5sI1nnd78wrnz-g=);
+  background-size: cover;
+}
+
+.photo1{
+  width: 33.33%;  
+  min-height: 125px;
+  float: left;
+  background-color: rgb(121, 210, 43);
+  background-image: url(https://www.shutterstock.com/image-photo/smiling-mature-man-wearing-spectacles-600nw-1432699253.jpg);
+  background-size: cover;
+}
+  .photo2{
+  width: 33.33%;  
+  min-height: 125px;
+  float: left;
+  background-color: rgb(12, 9, 89);
+  background-image: url(https://img.freepik.com/premium-photo/beautiful-colorful-valentine-day-heart-clouds-generative-ai_75891-2623.jpg);
+  background-size: cover;
+}
+.photo3{
+  width: 33.33%;  
+  min-height: 125px;
+  float: left;
+  background-color: rgb(143, 191, 11);
+  background-image: url(https://media.istockphoto.com/id/1289461335/photo/portrait-of-a-handsome-black-man.jpg?s=612x612&w=0&k=20&c=gDibbpmkeV04ta3ociwAgpqcjdeU5sI1nnd78wrnz-g=);
+  background-size: cover;
+}
+.photo4{
+  width: 33.33%;  
+  min-height: 125px;
+  float: left;
+  background-color: rgb(38, 148, 216);
+  background-image: url(https://www.shutterstock.com/image-photo/smiling-mature-man-wearing-spectacles-600nw-1432699253.jpg);
+  background-size: cover;
+}
+.photo5{
+  width: 33.33%;  
+  min-height: 125px;
+  float: left;
+  background-color: black;
+  background-image: url(https://img.freepik.com/premium-photo/beautiful-colorful-valentine-day-heart-clouds-generative-ai_75891-2623.jpg);
+  background-size: cover;
+}
+.number{
+    width: 130px;
+    min-height: 30px;
+    float: left;
+    /* background-color: green; */
+    box-sizing: border-box;
+}
+.gmail{
+    width:170px;
+    min-height:30px ;
+    float: left;
+    /* background-color: blue; */
+    /* padding-left: 10px; */
+    box-sizing: border-box;
+}
+.icons{
+    width:130px ;
+    min-height:30px ;
+    float: left;
+    /* background-color:red ; */
+    padding-left:20px;
+    box-sizing: border-box;
+    /* margin: 0 0 0 60px; */
+    position: absolute;
+    left: 450px;
+}
+.isuzu{
+    width:100px ;
+    min-height:25px ;
+    float: left;
+    /* background-color: blueviolet; */
+    border: 2px solid white;
+    border-radius: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 12px;
+}
+.menu li{
+    /* text-decoration: none; */
+    list-style-type: none;
+    padding: 0;
+    margin: 0 15px 0 0;
+    float: left;
+}
+.menu2{
+    width:400px ;
+    min-height: 1px;
+    /* display: flex; */
+    /* justify-content: end; */
+    position: absolute;
+    right: 170px;
+}
+.whatIs{
+    width: 300px;
+    min-height: 150px;
+    float: left;
+    /* background-color: brown; */
+    margin-left: 20px;
+    position: relative;
+}
+.whatIs h1{
+    margin: 5px 0;
+}
+.readmore{
+    width: 100px;
+    min-height: 30px;
+    float: left;
+    background-color: #00C366;
+    border-radius: 5px;
+    margin-top:10px ;
+    position: absolute;
+    /* bottom: ; */
+}
+.readmore i{
+    margin-left: 3px;
+}
+.ic{
+    width: 30px;
+    min-height: 150px;
+    float: left;
+    /* background-color: lavenderblush; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0 0 85px 0;
+    box-sizing: border-box;
+}
+.name{
+    width: calc(100% - 30px);
+    min-height: 40px;
+    float: left;
+    /* background-color: darkturquoise; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.lorem{
+    width:calc(100% - 30px) ;
+    min-height: 110px;
+    float: left;
+    /* background-color: #B76AC3; */
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+}
+.miniText ul li{
+    list-style-type: none;
+    float: left;
+    margin-right: 15px;
+}
